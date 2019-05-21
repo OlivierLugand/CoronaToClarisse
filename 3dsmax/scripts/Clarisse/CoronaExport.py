@@ -2,6 +2,8 @@ import os, MaxPlus, json, io, pymxs
 from PySide2 import QtWidgets, QtCore, QtGui
 from PySide2.QtWidgets import QMessageBox,QFileDialog,QErrorMessage
 
+### A big thank you to Yanik and Anabil from the Isotropix forum for their help and support ###
+
 fname = os.path.join(os.path.join(os.path.dirname(__file__)),"ConvertorTree.ui")
 ui_type, base_type = MaxPlus.LoadUiType(fname)
 
