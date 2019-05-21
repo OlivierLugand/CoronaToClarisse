@@ -5,7 +5,7 @@ import json
 import ntpath
 import re
 
-
+### A big thank you to Yanik and Anabil from the Isotropix forum for their help and support ###
 
 
 
