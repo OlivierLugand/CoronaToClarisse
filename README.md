@@ -1,5 +1,7 @@
 # CoronaToClarisse
 
+Only tested on 3ds max 2018
+
 For now, this script supports :
 
   Corona Mtl
