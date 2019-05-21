@@ -16,6 +16,8 @@ For now, this script supports :
   
 
 
+
+
 3ds Max :
 
 1 - Copy and paste "scripts" and "UI_ln" folders in "C:\Program Files\Autodesk\3ds Max [version]"
