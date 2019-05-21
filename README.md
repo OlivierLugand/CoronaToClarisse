@@ -1,5 +1,21 @@
 # CoronaToClarisse
 
+For now, this script supports :
+
+  Corona Mtl
+
+  Corona Layered Mtl
+
+  3ds max bitmap
+  
+  CoronaBitmap
+  
+  CoronaNormal
+  
+  Corona Front/Back
+  
+
+
 3ds Max :
 
 1 - Copy and paste "scripts" and "UI_ln" folders in "C:\Program Files\Autodesk\3ds Max [version]"
