@@ -18,7 +18,7 @@ For now, this script supports :
 
 
 
-3ds Max :
+## 3ds Max :
 
 1 - Copy and paste "scripts" and "UI_ln" folders in "C:\Program Files\Autodesk\3ds Max [version]"
 
@@ -27,7 +27,7 @@ For now, this script supports :
 3 - Go to Customize/Customize user interface -> Toolbars -> Category : CoronaToClarisse and drag and drop it in a toolbar
 
 
-Clarisse :
+## Clarisse :
 
 1 - Add a new item in a shelf
 
