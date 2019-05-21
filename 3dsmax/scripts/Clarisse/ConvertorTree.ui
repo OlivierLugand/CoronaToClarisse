@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CoronaToClarisse</class>
+ <widget class="QWidget" name="CoronaToClarisse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>CoronaToClarisse</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>350</y>
+     <width>711</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButtonBrowse">
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="placeholderText">
+       <string>Select a file location</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>310</y>
+     <width>731</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>351</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string notr="true">Export path</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>711</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="alternatingRowColors">
+       <bool>false</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::ExtendedSelection</enum>
+      </property>
+      <property name="indentation">
+       <number>20</number>
+      </property>
+      <property name="uniformRowHeights">
+       <bool>false</bool>
+      </property>
+      <property name="columnCount">
+       <number>2</number>
+      </property>
+      <attribute name="headerCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="headerDefaultSectionSize">
+       <number>350</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Meshes</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Materials</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAddObjects">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonRemoveObjects">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonExport">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>390</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>270</y>
+     <width>731</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Export Mesh</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
